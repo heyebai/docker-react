@@ -13,9 +13,8 @@ deploy:
     region: "ap-southeast-2"
     app: "docker-react"
     env: "Dockerreact-env"
-    bucket_name: "travis-test-hyb"
+    bucket_name: "elasticbeanstalk-ap-southeast-2-291596715660"
     bucket_path: "docker-react"
-    edge: true
     on:
         branch: main
     access_key_id: $AWS_ACCESS_KEY
